@@ -62,7 +62,7 @@ if s:
         )
         """
     )
-    cur.execute("INSERT INTO feedback (NAME1, NAME2, SCORE, DATE) VALUES (%s, %s, %s, %s)",(b1, b2, str(score), date))
+    cur.execute("INSERT INTO lovecal (NAME1, NAME2, SCORE, DATE) VALUES (%s, %s, %s, %s)",(b1, b2, str(score), date))
     conn.commit()
 
 
