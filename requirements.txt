@@ -1,0 +1,7 @@
+Pillow
+streamlit
+pandas
+datetime
+streamlit-option-menu
+psycopg2
+mysql.connector
