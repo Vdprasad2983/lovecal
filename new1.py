@@ -58,7 +58,7 @@ if s:
     cur.execute(
         """
         CREATE TABLE IF NOT EXISTS lovecal(
-            NAME1 VARCHAR(100), NAME2 VARCHAR(100), SCORE VARCHAR(50), DATE TIMESTAMP
+            NAME1 VARCHAR(100), NAME2 VARCHAR(100), SCORE VARCHAR(50), DATE VARCHAR(50)
         )
         """
     )
